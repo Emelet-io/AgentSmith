@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "agentsmith"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Warfield <hire@danielwarfield.dev>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.1"
+pylint = "^3.0.3"
+sphinx = "^7.2.6"
+sphinx-rtd-theme = "^2.0.0"
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
